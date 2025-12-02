@@ -1,0 +1,59 @@
+/*This is the CSS page for our final template.*/
+p {
+	font-family: 'Oswald', serif;
+	font-size: 20px;
+
+.footer p { /* This is how you add styles for only the p text within the footer. */
+	background-color: #004990;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.header {
+	height: auto;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'oswald-subhead', serif;
+	background-color: black;
+}
+h4 {
+	font-style: italic;
+	font-size: 40px;
+	font-family: 'Oswald', serif;
+}
+h3 {
+	font-size: 30px;
+	font-family: 'Oswald', serif;
+}
+
+img {
+	float: right;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+/*Don't worry about this section yet*/
+@media only screen and (max-width: 767px)
+{
+ .list {
+ 	float: none;
+ 	min-width: 90%;
+ 	margin-left: 10px;
+ 	margin-bottom: 30px;
+ 	margin-top: 30px;
+ }
+ iframe {
+ 	min-width: 90%;
+ 	margin-right: 10px;
+ }
+}
+
+
+.oswald-subhead{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
